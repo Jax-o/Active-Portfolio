@@ -22,7 +22,7 @@ body {
 	font-size: 48px;
 }
 
-/* renamed class */
+
 .header nav {
 	padding-top: 15px;
 	margin-right: 20px;
@@ -48,18 +48,122 @@ a {
 
 main {
 	display: flex;
+	flex-wrap: wrap;
+
 }
 
 aside {
-	flex-direction: column;
-	background-color: #b9c6ae;
-	padding: 200px;
+	margin-left: 10px;
+	padding: 75px;
+	clear: both;
+	float: left;
+	width: 20%;
+	max-height: 100%;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	border-right: 5px solid #e3b26f;
+	text-align: right;
+	color: black;
+}
+
+h2 {
+	font-weight: bolder;
+	font-size: 50px;
+	padding: 60px;
+	flex-wrap: wrap;
+	align-items: flex-end;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
-footer {
-	padding: 20px;
-	text-align: center;
-	font-family:Verdana, Geneva, Tahoma, sans-serif;
-	background-color: #0a1638;
-	color: #ffffff;
+
+.content {
+	width: 75%;
+	display: block;
+	margin-left: 20px;
 }
+
+.container {
+	margin-top: 10px;
+	margin-bottom: 15px;
+	margin-right: 50px;
+	padding: 20px;
+	height: 300px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: left;
+}
+
+.container p {
+	margin-top: 50px;
+	color: black;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container img {
+	height: 300px;
+	float: left;
+	margin-top: -10px;
+	margin-right: 25px;
+	margin-left: -20px;
+	padding: 20px;
+}
+
+.code img {
+	flex-direction: row;
+	width: 1325px;
+	height: 450px;
+	margin-right: 25px;
+	padding: 20px;
+ }
+
+
+.row img {
+	flex-direction: row;
+	width: 650px;
+	height: 350px;
+	margin-right: 25px;
+	padding: 20px;
+	margin-bottom: 20px;
+ }
+
+footer {
+	margin-top: 1px;
+	height: 195px;
+	border-top: 15px solid #e3b26f;
+	padding: -10px;
+	background-color: #0a1638;
+	
+}
+.footer h2 {
+	display: inline-block;
+	font-size: 48px;
+	align-items: center;
+	text-align: left;
+	color:#ffffff;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.footer p, footer a {
+	display: inline-block;
+	padding: 60px;
+	margin-right: 20px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 40px;
+	align-items: center;
+	text-align: none;
+	color: #ffffff;
+	
+}
+
+@media screen and (max-width: 768px) {
+	header,
+	main, 
+	nav,
+	footer {
+		flex-direction: column;
+	}
+	
+ }
+ 
+ 
