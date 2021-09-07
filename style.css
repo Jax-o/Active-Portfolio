@@ -7,6 +7,7 @@
 body {
 	background-color: #e1d4c3;
 }
+/* header */
 
 header {
 	padding: 50px;
@@ -17,6 +18,7 @@ header {
 
 }
 
+/* navigation bar */
 .navbar {
 	display: flex;
 	background-color: #e3b26f;
@@ -32,7 +34,7 @@ header {
 	text-align: center;
 	margin-left: 32px;
 }
-
+/* side bar */
 .layout {
 	display: flex;
 	flex-wrap: wrap;
@@ -52,6 +54,7 @@ header {
 	
 }
 
+/* main column */
 .content {
 	flex:70%;
 	padding: 10px;
@@ -149,6 +152,7 @@ header {
 	padding: 15px;
  }
 
+ /* footer */
 .footer {
 	padding: 20px;
 	font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -178,6 +182,7 @@ header {
 	color: #ffffff;
 	
 }
+/* responsive design */
 
 @media screen and (max-width: 992px) {
 	.layout, .navbar {   
