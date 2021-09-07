@@ -17,7 +17,6 @@ https://w3schools.com
 Please see webpage at https://jax-o.github.io/Active-Portfolio/
 
 
-chrome-extension://fdpohaocaechififmbbbbbknoalclacl/capture.html?id=5&url=https%3A%2F%2Fjax-o.github.io%2FActive-Portfolio%2F
-
+https://jax-o.github.io/Active-Portfolio/
 
 
