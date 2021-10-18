@@ -54,6 +54,15 @@ header {
 	
 }
 
+
+.sideLinks {
+	margin-top: 850px;
+	padding: 25px;
+	font-size: 25px;
+	
+}
+
+
 /* main column */
 .content {
 	flex:70%;
@@ -84,12 +93,14 @@ header {
 
 .bottom {
 	position: absolute;
-	bottom: 25px;
+	top: 25px;
 	right: 60px;
 	font-size: 25px;
 	font-weight: bolder;
  }
 
+
+ 
 .code img {
 	height: 400px;
 	width: 100%;
@@ -106,12 +117,12 @@ header {
 .text {
 	position: relative;
 	text-align: center;
-	color:white;
+	color: black;
 }
 
 .first {
 	position: absolute;
-	top: 25px;
+	bottom: -20px;
 	left: 60px;
 	font-size: 25px;
 	font-weight: bolder;
@@ -119,15 +130,15 @@ header {
 
 .second {
 	position: absolute;
-	top: 25px;
-	right: 60px;
+	top: -10px;
+	right: 120px;
 	font-size: 25px;
 	font-weight: bolder;
 }
 
 .third {
 	position: absolute;
-	top: 320px;
+	top: 280px;
 	left: 60px;
 	font-size: 25px;
 	font-weight: bolder;
@@ -135,7 +146,7 @@ header {
 
 .fourth {
 	position: absolute;
-	top: 315px;
+	top: 280px;
 	right: 60px;
 	font-size: 25px;
 	font-weight: bolder;
