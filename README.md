@@ -17,6 +17,6 @@ https://w3schools.com
 Please see webpage at https://jax-o.github.io/Active-Portfolio/
 
 
-![image](https://user-images.githubusercontent.com/88553985/132420285-baf616be-f3f7-4895-a53c-52999def5678.png)
+![screencapture-jax-o-github-io-Active-Portfolio-2021-10-18-17_59_21](https://user-images.githubusercontent.com/88553985/137812625-c7354472-9c65-4493-b83a-38e723c20eac.png)
 
 
